@@ -138,7 +138,7 @@ def format_review_comment(summarized_review: str, chunked_reviews: List[str]) ->
 @click.command()
 @click.option("--diff", type=click.STRING, required=True, help="Pull request diff")
 @click.option("--diff-chunk-size", type=click.INT, required=False, default=3500, help="Pull request diff")
-@click.option("--repo-id", type=click.STRING, required=False, default="gpt-2", help="Model")
+@click.option("--repo-id", type=click.STRING, required=False, default="openai-community/gpt2", help="Model")
 @click.option("--temperature", type=click.FLOAT, required=False, default=0.1, help="Temperature")
 @click.option("--max-new-tokens", type=click.INT, required=False, default=250, help="Max tokens")
 @click.option("--top-p", type=click.FLOAT, required=False, default=1.0, help="Top N")
