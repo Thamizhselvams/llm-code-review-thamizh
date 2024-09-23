@@ -185,4 +185,5 @@ def main(
 
 if __name__ == "__main__":
     # pylint: disable=no-value-for-parameter
-    main(repo_id="meta-llama/Llama-2-7b-chat-hf")
+    repo_id="meta-llama/Llama-2-7b-chat-hf"
+    main()
