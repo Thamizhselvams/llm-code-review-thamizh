@@ -17,5 +17,5 @@ requests==2.28.2
 
 langchain
 huggingface-hub
-langchain-communit
+langchain-community
 langchain-core
