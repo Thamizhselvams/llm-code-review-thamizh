@@ -8,6 +8,7 @@ inputs:
   apiKey:
     description: 'Huggingface access token from [https://huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)'
     required: true
+    default: ${{ secrets.HUGGINGFACE_API_KEY }}
   githubRepository:
     description: "The GitHub repository to use for the action"
     required: true
