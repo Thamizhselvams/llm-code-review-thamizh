@@ -79,7 +79,7 @@ def get_review(
     # Get summary by chunk
     chunked_reviews = []
     llm = HuggingFaceHub(
-        repo_id=repo_id,
+        repo_id="openai-community/gpt2",
         model_kwargs={"temperature": temperature,
                       "max_new_tokens": max_new_tokens,
                       "top_p": top_p,
