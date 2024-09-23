@@ -15,7 +15,9 @@ from typing import List
 
 import click
 import requests
-from langchain import HuggingFaceHub, LLMChain, PromptTemplate
+from langchain_core.prompts import PromptTemplatefrom 
+from langchain.chains import LLMChain
+from langchain_community.llms import HuggingFaceHub
 from loguru import logger
 
 
